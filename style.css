@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Alumni+Sans&family=Big+Shoulders+Display:wght@700&family=Montserrat:wght@500;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Fraunces', serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    width: 650px;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.product { 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 1.5rem;
+}
+
+ .product h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+}
+
+.product h1 {
+    font-size: 3rem;
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+
+.product p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: hsl(228, 12%, 48%);
+}
+
+.price {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.price .dis {
+    font-size: 3rem;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+
+.price .non {
+    padding: 15px 20px;
+    text-decoration: line-through;
+    font-size: 16px;
+    color: hsl(228, 12%, 48%);
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
